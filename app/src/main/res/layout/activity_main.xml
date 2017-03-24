@@ -28,57 +28,51 @@
 
         <Button
             android:id="@+id/buttonPopularMovies"
+            style="@style/buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            android:background="@color/colorPrimary"
-            android:text="@string/popular_movies"
-            android:textColor="@color/icons"/>
+            android:onClick="onClickToast"
+            android:text="@string/popular_movies"/>
 
         <Button
             android:id="@+id/buttonStockHawk"
+            style="@style/buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            android:background="@color/colorPrimary"
-            android:text="@string/stock_hawk"
-            android:textColor="@color/icons"/>
+            android:onClick="onClickToast"
+            android:text="@string/stock_hawk"/>
 
         <Button
             android:id="@+id/buttonBuildItBigger"
+            style="@style/buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            android:background="@color/colorPrimary"
-            android:text="@string/build_it_bigger"
-            android:textColor="@color/icons"/>
+            android:onClick="onClickToast"
+            android:text="@string/build_it_bigger"/>
 
         <Button
             android:id="@+id/buttonMakeYourAppMaterial"
+            style="@style/buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            android:background="@color/colorPrimary"
-            android:text="@string/make_your_app_material"
-            android:textColor="@color/icons"/>
+            android:onClick="onClickToast"
+            android:text="@string/make_your_app_material"/>
 
         <Button
             android:id="@+id/buttonGoUbiquitous"
+            style="@style/buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            android:background="@color/colorPrimary"
-            android:text="@string/go_ubiquitous"
-            android:textColor="@color/icons"/>
+            android:onClick="onClickToast"
+            android:text="@string/go_ubiquitous"/>
 
         <Button
             android:id="@+id/buttonCapstone"
+            style="@style/buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="4dp"
             android:background="@color/colorAccent"
-            android:text="@string/capstone_my_own_app"
-            android:textColor="@color/icons"/>
-
+            android:onClick="onClickToast"
+            android:text="@string/capstone_my_own_app"/>
     </LinearLayout>
 </ScrollView>
